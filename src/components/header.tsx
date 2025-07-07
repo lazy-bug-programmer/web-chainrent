@@ -87,16 +87,6 @@ export default function Header() {
               </SelectContent>
             </Select>
 
-            <Link href="/admin" className="hidden sm:block">
-              <Button
-                variant="outline"
-                size="sm"
-                className="border-indigo-500 text-indigo-400 hover:bg-indigo-500 hover:text-white bg-transparent text-xs sm:text-sm"
-              >
-                Admin
-              </Button>
-            </Link>
-
             <Button
               size="sm"
               className="hidden sm:inline-flex gradient-bg hover:opacity-90 text-xs sm:text-sm"
